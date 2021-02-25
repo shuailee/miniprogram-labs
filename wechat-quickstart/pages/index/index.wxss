@@ -1,0 +1,20 @@
+/* pages/index/index.wxss */
+/*
+外联样式
+*/
+@import "../../common.wxss";
+
+.box{
+  width: 400rpx;
+  height: 400rpx;
+  display: block;
+  background-color: antiquewhite;
+}
+
+.box>text:first-child {
+  color: #e4393c;
+}
+
+input:active {
+  border: 1px solid #ddd;
+}

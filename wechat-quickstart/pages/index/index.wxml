@@ -1,0 +1,16 @@
+<!--pages/index/index.wxml-->
+<text>hello klein</text>
+<button> hello </button>
+
+<!-- 基本视图组件中的view相当于HTML中的div可用来布局；基本内容组件中的text相当于span，可以用来装载多段行内文本，再如媒体组件中的image，它相当于img标签用来承载图片信息 
+image的bindload属性: 图片加载完成后触发
+-->
+<view>
+  <image bindload='imgLoad' src='https://i0.hdslb.com/bfs/live/6c41e9f57094fae13728cd27e7d1c1379a3f1fcd.jpg@320w_330h_1c_100q.webp'></image>
+</view>
+
+<view class="box">
+	<text>一往情深深几许，</text>
+	<text>深山夕照深秋雨。</text>
+	<input placeholder="输入作者名字" />
+</view>
